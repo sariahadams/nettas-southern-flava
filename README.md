@@ -1,42 +1,43 @@
-# Netta's Southern Flava
+# Netta's Southern Flava ✨
 
-Welcome to **Netta's Southern Flava**! This full-stack application is designed to simplify and enhance the restaurant experience for both customers and staff. 
+Welcome to **Netta's Southern Flava**! This full-stack application is designed to simplify and enhance the restaurant experience for both customers and staff. 🍔
 <!-- It features a modern, user-friendly interface and a robust backend to handle all restaurant-related operations efficiently. -->
 
-## Features
+
+## Features 💡
 
 - **Customer-facing Features**:
-  - Browse the menu with categories.
+  - 🍲 Browse the menu with categories.
   <!-- - Place orders online. -->
   <!-- - Track order status in real-time. -->
-  - View restaurant information (hours, location, contact details).
+  - 🕒 View restaurant information (hours, location, contact details).
 
 <!-- - **Admin-facing Features**:
   - Manage menu items (add, edit, delete).
   - Track and update orders.
   - View analytics (e.g., sales, popular items). -->
 
-## Tech Stack
+## Tech Stack 💻
 
-### Frontend
+### Frontend 🎨
 - **Framework**: [React](https://reactjs.org/)
 - **Styling**: CSS/SCSS or a component library (e.g., Material-UI, Tailwind CSS)
 - **State Management**: Context API/Redux
 
-### Backend
+### Backend 🚀
 - **Framework**: [FastAPI](https://fastapi.tiangolo.com/)
 - **Database**: PostgreSQL/MySQL/SQLite <!-- Might not need this -->
 <!-- - **Authentication**: JWT-based authentication -->
 - **API Documentation**: Automatically generated with OpenAPI
 
-## Getting Started
+## Getting Started 🔄
 
-### Prerequisites
+### Prerequisites ♻️
 - [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed
 - [Python](https://www.python.org/) 3.9+ installed
 <!-- - A database setup (e.g., PostgreSQL) -->
 
-### Installation
+### Installation ⚙️
 
 1. Clone the repository:
    ```bash
@@ -59,8 +60,8 @@ Welcome to **Netta's Southern Flava**! This full-stack application is designed t
    ```
 
 4. Configure environment variables:
-   - Frontend: Add `.env` file in the `frontend` directory.
-   - Backend: Add `.env` file in the `backend` directory.
+   - 🛠️ Frontend: Add `.env` file in the `frontend` directory.
+   - 🛠️ Backend: Add `.env` file in the `backend` directory.
 
 5. Start the application:
    - Frontend:
@@ -72,7 +73,7 @@ Welcome to **Netta's Southern Flava**! This full-stack application is designed t
      uvicorn main:app --reload
      ```
 
-### Folder Structure
+### Folder Structure 🗁
 
 ```plaintext
 nettas-southern-flava/
@@ -86,7 +87,7 @@ nettas-southern-flava/
 
 This project is licensed under the MIT License. See the LICENSE file for more details. -->
 
-## Contact
+## Contact 📧
 
 For any inquiries, feel free to reach out:
 - Sariah Adams
