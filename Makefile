@@ -44,3 +44,11 @@ backend-clean:
 .PHONY: backend-all
 backend-all:
 	@$(MAKE) -C $(BACKEND_DIR) $(NO_PRINT_FLAG) all
+
+.PHONY: frontend-run-dev-server
+frontend-run-dev-server:
+	@npm run dev --prefix ./frontend
+
+.PHONY: frontend-install
+frontend-install:
+	@npm install --prefix ./frontend
