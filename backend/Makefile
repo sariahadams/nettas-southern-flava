@@ -91,6 +91,11 @@ test: venv
 	@ echo "TODO: Implement tests"
 #	@ $(PYTEST) -vv --cov-report term-missing --cov=. testing/
 
+# Run server
+.PHONY: run-server
+run-server: venv
+	@ $(PYTHON) src/main.py
+
 # Clean up and remove cache files
 .PHONY: clean
 clean:
