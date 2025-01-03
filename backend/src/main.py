@@ -4,14 +4,22 @@ import uvicorn
 from typing import Dict
 
 
-app = FastAPI()
+app: FastAPI = FastAPI()
 
+# Add middleware to handle Cross-Origin Resource Sharing (CORS)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["localhost:3000"],  # TODO: Add frontend url -- get from a config?
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    # TODO: Replace "localhost:3000" with the actual frontend URL or load it from a configuration file.
+    allow_origins=[
+        "localhost:3000"
+    ],  # List of allowed origins (domains) that can interact with this API.
+    allow_credentials=True,  # Allow sending cookies and other credentials in cross-origin requests.
+    allow_methods=[
+        "*"
+    ],  # Specify the HTTP methods that are allowed in cross-origin requests.
+    allow_headers=[
+        "*"
+    ],  # Specify the HTTP headers that can be included in cross-origin requests.
 )
 
 

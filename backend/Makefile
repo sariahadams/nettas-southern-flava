@@ -1,5 +1,4 @@
 .DEFAULT_GOAL := all
-# .SILENT: install
 
 # Variables
 DEV = 1

@@ -41,7 +41,6 @@ backend-run-server:
 backend-clean:
 	@$(MAKE) -C $(BACKEND_DIR) $(NO_PRINT_FLAG) clean
 
-# Execute all backend steps
 .PHONY: backend-all
 backend-all:
 	@$(MAKE) -C $(BACKEND_DIR) $(NO_PRINT_FLAG) all
