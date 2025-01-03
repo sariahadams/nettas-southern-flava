@@ -1,3 +1,5 @@
+[![Python Versions](https://github.com/sariahadams/nettas-southern-flava/actions/workflows/python-versions.yml/badge.svg)](https://github.com/sariahadams/nettas-southern-flava/actions/workflows/python-versions.yml)
+
 # Netta's Southern Flava ✨
 
 Welcome to **Netta's Southern Flava**! This full-stack application is designed to simplify and enhance the restaurant experience for both customers and staff. 🍔
