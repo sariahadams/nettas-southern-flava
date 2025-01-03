@@ -1,0 +1,27 @@
+# # General
+# node_modules/
+# *.log
+# .env
+# .DS_Store
+# .vscode/
+# .idea/
+# __pycache__/
+# *.pyc
+
+# # Frontend
+# frontend/build/
+# frontend/node_modules/
+# frontend/.env
+# frontend/.cache/
+
+# # Backend
+# backend/.venv/
+# backend/*.sqlite3
+# backend/.env
+# backend/__pycache__/
+# backend/*.pyc
+# backend/db.sqlite3
+
+# # System Files
+# Thumbs.db
+# *.swp
