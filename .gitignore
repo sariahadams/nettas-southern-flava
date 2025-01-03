@@ -10,7 +10,7 @@ __pycache__/
 
 # Frontend
 frontend/build/
-frontend/node_modules/
+# frontend/node_modules/ # handled in frontend/.gitignore
 frontend/.env
 frontend/.cache/
 
